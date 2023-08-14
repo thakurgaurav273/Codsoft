@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap stylesheet link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- External User Defined Css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Kit Link to fontawesome -->
+    <script src="https://kit.fontawesome.com/4ec194eaa6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Navbar Code -->
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="index.html"><img class="mylogo" src="/Logo.jpeg" alt="" srcset=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#intro">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skillset</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact_info">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qualifications">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--BASIC DETAILS OF PROFILE -->
+        <div id="intro">
+            <div class="left-section">
+                <h1 class="candidate-name">Gaurav Singh</h1>
+                <br>
+                <h5>Pursuing B.Tech in Computer Science<br>From A.P.J Abdul Kalam Technical University <br></h5>
+                <br>
+                <h6>Web Development Enthusiast</h6>
+
+            </div>
+            <div class="right-section">
+                <a href="index.html"><img class="candidate-image" src="20211010_164801.jpg"></a>
+            </div>
+
+        </div>
+        <!-- Education Details -->
+        <div id="qualifications">
+            <h2>Education Information</h2> <br><br>
+            <div class="bTech">
+
+                <h4>B.Tech </h4>
+                <p>AKTU 2020-24</p>
+                <p>Ajay Kumar Garg Engineering College,Ghaziabad</p>
+                <p>CS&IT</p>
+
+                <p>8.0 CGPA</p>
+
+            </div>
+            <div class="bTech highschool">
+
+                <h4>Intermediate</h4>
+                <p>CBSE 2019</p>
+                <p>M.P.V.M Ganga Gurukulam,Prayagraj</p>
+                <p>82.4%</p>
+                <br>
+            </div>
+            <div class="bTech highschool">
+
+                <h4>High School</h4>
+                <p>CBSE 2017</p>
+                <p>Gurukul Montessori School,Prayagraj</p>
+                <p>9.6 CGPA</p>
+                <br>
+            </div>
+
+        </div>
+
+        <div id="projects">
+            <h2>Projects</h2>
+            <!-- Project Number== 1   -->
+            <div class="project_desc">
+                <h3>Weather Website</h3>
+                <p>This project was made to get started with some backend programming and api intergration.We used
+                    Nodejs,Express,Https,Body-parser etc. modules of JavaScript
+                    to fetch the details entered by user then processing it through api call of Openweathermap Api.And
+                    hence
+                    generating the desired output.
+                    <br><br>
+                <h4>Tech Used</h4>
+                <p class="tech_used">Html,Css,JavaScript,Nodejs,Ejs</p>
+                <br><br>
+                </p>
+            </div>
+            <div class="output_of_project weather_out">
+            </div>
+            <br>
+
+            <!-- Project Number== 2 -->
+            <div class="output_of_project to_do_out">
+            </div>
+            <div class="project_desc">
+                <h3>To Do List Website</h3>
+                <p>This project was made to prepare a list of the tasks to be done on a day and delete it once it gets
+                    completed. While creating it I learned how MongoDB is used
+                    to insert and extract data from it. Got to learn about MongoDB Atlas.
+                    <br><br>
+                <h4>Tech Used</h4>
+                <p class="tech_used">Html,Css,JavaScript,Nodejs,Ejs,MongoDB Atlas,Mongoose</p>
+                <br><br>
+                </p>
+            </div>
+            <br>
+            <!-- Project Number== 3 -->
+            <div class="project_desc">
+                <h3>Tindog Website</h3>
+                <p>This project was made when I started learning Front-end Development.It helped me to clear the things
+                    how
+                    class,id,div,position,z-index,media query etc.
+                    works in Css. And how these can be used to create Beautiful Websites.Here I used Fontawesome for
+                    getting
+                    the icons , bootstrap also used in order to get gist of
+                    what bootstrap can do for us (reduce some burden).
+                    <br><br>
+                <h4>Tech Used</h4>
+                <p class="tech_used">Html,Css,Bootstrap (July' 2023)</p>
+                <br><br>
+                </p>
+            </div>
+            <div class="output_of_project tindog_out">
+            </div>
+
+            <!-- Project Number== 4-->
+            <div class="output_of_project spotify">
+            </div>
+            <div class="project_desc">
+                <h3>Spotify</h3>
+                <p>Experience the mesmerizing front-end clone of Spotify, crafted with HTML, CSS, Bootstrap, Font
+                    Awesome, and
+                    powered by React.js. Immerse yourself in stunning design, smooth animations, and intuitive user
+                    interface, making music
+                    streaming a delightful journey
+                    <br><br>
+                <h4>Tech Used</h4>
+                <p class="tech_used"> React, HTML, Bootstrap, CSS (June ’2023)
+                </p>
+                <br><br>
+                </p>
+            </div>
+            <br>
+            <!-- Project number == 5 -->
+            <div class="project_desc">
+                <h3>Hotstar</h3>
+                <p>Experience the stunning front-end clone of Hotstar, crafted with HTML, CSS, Bootstrap, FontAwesome,
+                    and
+                    powered by React.js. Enjoy seamless navigation, eye-catching design, and responsive layout, making
+                    your streaming journey a
+                    delightful one.
+                    <br><br>
+                <h4>Tech Used</h4>
+                <p class="tech_used"> React, HTML, Bootstrap, CSS (May ’2023) </p>
+                <br><br>
+                </p>
+            </div>
+            <div class="output_of_project hotstar_out">
+            </div>
+            <!-- Project Number== 6-->
+            <div class="output_of_project netflix">
+            </div>
+            <div class="project_desc">
+                <h3>Netflix</h3>
+                <p>Embark on boundless entertainment through our captivating landing page. Crafted with HTML, CSS, and
+                    JavaScript, we provide tailored suggestions, seamless navigation, and dynamic visuals. Immerse
+                    yourself in a realm of personalized movies and shows. Start exploring today!
+                    <br><br>
+                <h4>Tech Used</h4>
+                <p class="tech_used">Html,Css,JavaScript(July '2023)</p>
+                <br><br>
+                </p>
+            </div>
+            <br>
+        </div>
+        <!-- Skills Section down here -->
+        <div id="skills">
+            <h4>Tech Skills</h4>
+            <div class="my_skill">
+                <p>Html, CSS</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="my_skill">
+                <p>C Language</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i></p>
+            </div>
+
+            <div class="my_skill">
+                <p>Python Programming</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i></p>
+            </div>
+            <div class="my_skill">
+                <p>Java Servlet Basics</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i></p>
+            </div>
+
+            <div class="my_skill">
+                <p>C++ Language</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            </div>
+        </div>
+        <!-- Tools i used  -->
+        <div class="tools_worked_with">
+            <h4>Known Frameworks</h4>
+            <div class="toolkits">
+                <span>MongoDB</span>
+                <span>Express</span>
+                <span><i class="fa-brands fa-bootstrap fa-2x"></i></span>
+                <span><i class="fa-brands fa-node fa-2x"></i></span>
+                <span>API</span>
+                <span><i class="fa-brands fa-git fa-2x"></i></span>
+                <span><i class="fa-brands fa-html5 fa-2x"></i></span>
+                <span>EJS</span>
+                <span><i class="fa-brands fa-java fa-2x"></i></span>
+                <span><i class="fa-brands fa-css3-alt fa-2x"></i></span>
+                <span><i class="fa-brands fa-square-js fa-2x"></i></span>
+            </div>
+        </div>
+        <!-- Contact information -->
+        <div class="contact_section">
+            <div id="contact_info">
+                <div class="links">
+                    <a href="mailto:thakurgaurav273@gmail.com">
+                        <h5 class="personal_contact"><i class="fa-solid fa-envelope"></i> &nbsp;
+                            thakurgaurav273@gmail.com
+                        </h5>
+                    </a>
+
+                    <a href="tel:7355227446">
+                        <h5 class="personal_contact"><i class="fa-solid fa-phone"></i>&nbsp; 7355227446</h5>
+                    </a>
+                    <a href="https://www.instagram.com/gaurav_singh_somwanshi/?utm_source=qr"><i
+                            class="fa-brands socialMedia fa-2x fa-instagram"></i></a>
+                    <a href="https://twitter.com/thakurgaurav273"><i
+                            class="socialMedia fa-brands fa-2x fa-twitter"></i></a>
+                    <a href="https://github.com/gaurv123"><i class="socialMedia fa-brands fa-2x fa-github"></i></a> <br>
+                    <br>
+                    <br>
+                    <h5 class="personal_contact"><i class="fa-solid fa-location-dot "></i>&nbsp;219K/20P Shantipuram
+                        Prayagraj ,U.P ,India</h5>
+                    <br><br><br>
+                </div>
+                <div class="map">
+                    <iframe class="location"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d638.6145023807422!2d81.85968256245194!3d25.53151459340942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ac9b386a1f091%3A0x50fb9e993a946892!2sSombansi%20mangal%20bhavan!5e1!3m2!1sen!2sin!4v1670248822638!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--  bootStrap script links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

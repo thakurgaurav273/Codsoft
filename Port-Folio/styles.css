@@ -1,0 +1,205 @@
+a:hover{
+    color: rgb(184, 193, 200);
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    
+}
+
+a:visited{
+    opacity: .5 !important ;
+    color: aliceblue !important;
+}
+body{
+    margin: 0 0;
+}
+.bTech{
+    margin: 0px 200px 20px 0;
+    display: inline-block;
+    height: 12rem;
+    font-size: 20px;
+}
+
+.candidate-name{
+    font-size: 40px;
+}
+.candidate-image{
+    height: 500px !important;
+    width: 400px !important;
+}
+.candidate-image:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    transition-duration: 1.25s;
+    transition-timing-function: ease-in-out;
+  }
+#contact_info{
+    margin:100px 0 0px 100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.contact_section{
+    background-color: #4f7088 !important;
+    
+}
+#intro{
+    margin-top: 200px !important;
+}
+i{
+    margin-right: 50px !important;
+    /* color:aliceblue; */
+}
+.fa-star{
+    color: gold !important;
+}
+
+.left-section{
+    display: inline-block;
+    /* height: 700px; */
+    width: 500px;
+    margin :50px 0 0 100px;
+    /* background-color: #12466a; */
+}
+.location{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+}
+.links{
+    display: inline-block;
+}
+.map{
+    display: inline-block;
+    margin-left: 350px;
+}
+.mylogo{
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50px;
+}
+.my_skill{
+    margin-right:25px;
+    width: 350px;
+    /* text-align: center; */
+    display: inline-block;
+}
+.navbar{
+    background-color: #003153 !important;
+    font-size: 20px;
+}
+.nav-link{
+    color: azure;
+    margin: 0 30px 0 55px !important;
+
+}
+.navbar-toggler{
+    background-color: azure !important;
+    color: black !important;
+}
+.output_of_project{
+   
+    display: inline-block;
+   
+    width: 600px;
+    height: 350px;
+}
+#projects{
+
+    margin: 50px 0 0 100px;
+}
+.personal_contact{
+    color: azure;
+}
+.project_desc{
+    display: inline-block;
+    width: 600px;
+}
+#qualifications{
+    margin-top: 150px;
+    padding: 50px 0 50px 100px ;
+    color: aliceblue;
+    background-color: #365b75 !important;
+}
+.right-section{
+    display: inline-block;
+    margin-left: 200px;
+}
+.socialMedia{
+    margin-top: 20px !important;
+}
+#skills{
+margin-left: 100px;
+margin-top: 25px;
+}
+span{
+    margin-right: 50px;
+}
+table,td{
+    border: 1px solid;
+
+}
+td{
+    padding-left: 25px;
+    font-weight: bold;
+    padding-right: 25px;
+}
+.tech_used{
+    font-size: 18px;
+}
+.to_do_out{
+    background-image: url("/to_do_list.jpg");
+    background-size: cover;
+    margin-right: 100px;
+}
+.spotify{
+    background-image: url("/image7.png");
+    background-size: cover;
+    margin-right: 100px;
+}
+.netflix{
+    background-image: url("/image\ 8.png");
+    background-size: cover;
+    margin-right: 100px;
+}
+.tools_worked_with{
+    margin: 50px 50px 0px 100px;
+}
+.tindog_out
+{
+    background-image: url("/image\ 9.png");
+    background-size: cover;
+    margin-left: 100px;   
+}
+.hotstar_out
+{
+    background-image: url("/image6.png");
+    background-size: cover;
+    margin-left: 100px;   
+}
+.weather_out{
+    background-image: url("/weather_website.jpg");
+    background-size: cover;
+    margin-left: 100px;
+}
+@media screen and (max-width:1300px) {
+    .candidate-image{
+        margin-left: 0;
+    }
+    .tindog_out,.weather_out{
+        margin-left: 0;
+    }
+
+}
+@media screen and (min-width:1800px) {
+    .highschool{
+        margin-top: 0px;
+        margin-left: 0px !important;
+    }
+}
+@media screen and (max-width:1800px) {
+    .highschool{
+        margin-top: 60px;
+        margin-left: 0px !important;
+    }
+}
